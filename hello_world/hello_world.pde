@@ -5,8 +5,8 @@ void setup() {
 }
 
 void draw() {
-    background(0); 
-    fill(255);
-    ellipse(width/2, height/2, 200, 200);
+    background(random(255), random(255), random(255)); 
+    fill(0);
+    ellipse(width/2, height/2, 500, 500);
 }
 
